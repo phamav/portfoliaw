@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anh's portfolio</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+
+    <body>
+        <h1>hello, i'm Anh :)</h1>
+        <nav>
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/projects">projects</a></li>
+                <li><a href="/recently_played">recently played</a></li>
+                <li><a href="/vinyls">vinyl collection</a></li>
+                <li><a href="/books">book collection</a></li>
+                <li><a href="/games">game collection</a></li>
+                <li><a href="/photos">fun photos</a></li>
+            </ul>
+        </nav>
+
+        <!-- Template -->
+        {{ block "content" . }}{{ end }}
+    </body>
+
+    <footer>
+        written in go and react.
+    </footer>
+</html>
